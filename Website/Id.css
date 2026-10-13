@@ -1,0 +1,81 @@
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* ID Card */
+.id-card {
+    width: 420px;
+    height: 275px;
+
+    margin: 20px auto;
+    padding: 8px;
+
+    background-color: #f5f5f5;
+
+    border: 2px solid #333;
+    border-radius: 20px;
+
+    box-shadow: 5px 8px 12px gray;
+}
+
+/* University Name */
+h1 {
+    text-align: center;
+
+    color: darkblue;
+
+    font-size: 25px;
+
+    margin: 2px 0 12px 0;
+}
+
+/* Photo + Details */
+.details {
+    display: flex;
+
+    align-items: flex-start;
+}
+
+/* Student Photo */
+.details img {
+    width: 158px;
+    height: 190px;
+
+    object-fit: cover;
+
+    margin-left: 5px;
+    margin-right: 18px;
+}
+
+/* Student Information */
+.info {
+    margin-top: 0px;
+}
+
+.info p {
+    margin: 0 0 7px 0;
+
+    font-size: 18px;
+
+    color: black;
+}
+
+.info b {
+    color: darkblue;
+}
+
+/* Blood Group */
+.blood {
+    text-align: center;
+
+    color: darkblue;
+
+    font-size: 20px;
+
+    margin-top: 7px;
+}
+
+.blood sup {
+    font-size: 14px;
+}
